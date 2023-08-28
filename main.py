@@ -147,7 +147,7 @@ class JiraTool:
             else:
                 ename = ename + "." + name
             count = count + 1
-        email = ename + "@flatironssolutions.com"
+        email = ename + "@mail.com"
         return email.lower()
 
     @staticmethod
